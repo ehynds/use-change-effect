@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "strict": true,
+    "noImplicitAny": true,
+    "declaration": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "lib": ["dom", "esnext"],
+    "target": "es5"
+  },
+  "include": ["./index.ts"]
+}
